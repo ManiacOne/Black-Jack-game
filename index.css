@@ -1,0 +1,45 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(table.png);
+    text-align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+#hero{
+    color: goldenrod;
+}
+
+#result{
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+#start-button{
+    font-weight: bold;
+    padding: 6px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 3px;
+}
+
+#newcard-button{
+    font-weight: bold;
+    padding: 6px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 3px;
+}
