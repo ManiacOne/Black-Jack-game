@@ -2,6 +2,7 @@
 let sum = 0
 let cardArr = []
 let result = document.getElementById("result")
+let sumContent = document.getElementById("sum")
 let showCard = document.getElementById("cards")
 let isAlive = true
 let isWinner = false
@@ -36,7 +37,7 @@ function renderGame() {
     for (let i = 0; i < cardArr.length; i++) {
         showCard.textContent += cardArr[i] + " "
     }
-
+    sumContent.textContent = "Sum : "+sum
     if (sum === 21) {
         message = "Wohoo! You've got a Blackjack"
         isWinner= true
